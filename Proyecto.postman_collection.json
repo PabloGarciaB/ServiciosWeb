@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "7d4f702b-e6c6-4754-a821-be9f3893fc48",
+		"name": "Proyecto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22862662"
+	},
+	"item": [
+		{
+			"name": "Lista Productos de una categoria",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "text"
+					},
+					{
+						"key": "pass",
+						"value": "12345678a",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost/xampp/Practica8/pruebaslim/public/productos/comics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"xampp",
+						"Practica8",
+						"pruebaslim",
+						"public",
+						"productos",
+						"comics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista Detalles en particular",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST Insercion Producto",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "text"
+					},
+					{
+						"key": "pass",
+						"value": "12345678a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Categoria",
+							"value": "libros",
+							"type": "text"
+						},
+						{
+							"key": "Producto",
+							"value": "{\n   \"LIB010\":\"Nombre\":\"Arcane\"\n}",
+							"type": "text"
+						},
+						{
+							"key": "DetalleProducto",
+							"value": "'{\n    \"LIB008\": {\n        \"ISBN\": \"A008\",\n        \"Autor\" \"Sin autor\",\n        \"Titulo\"  \"Mapa de la ciudad de Puebla\",\n        \"Editorial\":\"Desconocida\",\n        \"Fecha\"  \"2015\",\n        \"Precio\"  \"0.00\",\n        \"Descuento\"  \"false\"\n    }\n}'",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/xampp/Practica8/pruebaslim/public/producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"xampp",
+						"Practica8",
+						"pruebaslim",
+						"public",
+						"producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizacion Detalles Truqueada",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "text"
+					},
+					{
+						"key": "pass",
+						"value": "12345678a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ISBN",
+							"value": "LIB010",
+							"type": "text"
+						},
+						{
+							"key": "Info",
+							"value": "{\n   \"ISBN\":\"LIB010\",\n   \"Autor\":\"Riot Actualizado\",\n   \"Nombre\":\"Arcane\",\n   \"Editorial\":\"Editorial X\",\n   \"Fecha\":2022,\n   \"Precio\":0,\n   \"Descuento\":false\n}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/xampp/Practica8/pruebaslim/public/producto/detalles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"xampp",
+						"Practica8",
+						"pruebaslim",
+						"public",
+						"producto",
+						"detalles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Producto y sus Detalles",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "text"
+					},
+					{
+						"key": "pass",
+						"value": "12345678a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ISBN",
+							"value": "COM001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/xampp/Practica8/pruebaslim/public/producto/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"xampp",
+						"Practica8",
+						"pruebaslim",
+						"public",
+						"producto",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Producto y sus Detalles Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "user",
+						"value": "pruebas1",
+						"type": "text"
+					},
+					{
+						"key": "pass",
+						"value": "12345678a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ISBN",
+							"value": "COM001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/xampp/Practica8/pruebaslim/public/producto/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"xampp",
+						"Practica8",
+						"pruebaslim",
+						"public",
+						"producto",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
