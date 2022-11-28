@@ -21,5 +21,10 @@ namespace ProyectoAPIRest
         {
 
         }
+
+        private void btnAñadirProducto_Click(object sender, EventArgs e)
+        {
+            //Consumir metodo API POST
+        }
     }
 }

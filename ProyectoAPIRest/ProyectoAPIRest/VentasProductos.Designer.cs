@@ -48,18 +48,20 @@ namespace ProyectoAPIRest
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(165, 19);
+            this.label1.Location = new System.Drawing.Point(220, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(296, 22);
+            this.label1.Size = new System.Drawing.Size(378, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "Consultas de productos y detalles";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 192);
+            this.label2.Location = new System.Drawing.Point(16, 236);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 13);
+            this.label2.Size = new System.Drawing.Size(149, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Escribe ISBN a buscar";
             // 
@@ -68,9 +70,10 @@ namespace ProyectoAPIRest
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(12, 166);
+            this.label3.Location = new System.Drawing.Point(16, 204);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 16);
+            this.label3.Size = new System.Drawing.Size(71, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "Detalles";
             // 
@@ -79,18 +82,20 @@ namespace ProyectoAPIRest
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(12, 47);
+            this.label4.Location = new System.Drawing.Point(16, 58);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 16);
+            this.label4.Size = new System.Drawing.Size(82, 19);
             this.label4.TabIndex = 3;
             this.label4.Text = "Producto";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 69);
+            this.label5.Location = new System.Drawing.Point(16, 85);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(142, 13);
+            this.label5.Size = new System.Drawing.Size(189, 17);
             this.label5.TabIndex = 4;
             this.label5.Text = "Escribe el producto a buscar";
             // 
@@ -98,20 +103,22 @@ namespace ProyectoAPIRest
             // 
             this.textBox1.BackColor = System.Drawing.Color.BurlyWood;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(12, 97);
+            this.textBox1.Location = new System.Drawing.Point(16, 119);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
+            this.textBox1.Size = new System.Drawing.Size(185, 24);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.BurlyWood;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(12, 217);
+            this.textBox2.Location = new System.Drawing.Point(16, 267);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(147, 20);
+            this.textBox2.Size = new System.Drawing.Size(195, 24);
             this.textBox2.TabIndex = 6;
             // 
             // textBox3
@@ -119,10 +126,11 @@ namespace ProyectoAPIRest
             this.textBox3.BackColor = System.Drawing.Color.NavajoWhite;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(188, 69);
+            this.textBox3.Location = new System.Drawing.Point(251, 85);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(424, 268);
+            this.textBox3.Size = new System.Drawing.Size(565, 330);
             this.textBox3.TabIndex = 7;
             // 
             // btnSalir
@@ -130,45 +138,51 @@ namespace ProyectoAPIRest
             this.btnSalir.BackColor = System.Drawing.Color.BurlyWood;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.ForeColor = System.Drawing.Color.Black;
-            this.btnSalir.Location = new System.Drawing.Point(12, 366);
+            this.btnSalir.Location = new System.Drawing.Point(16, 450);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.Size = new System.Drawing.Size(100, 28);
             this.btnSalir.TabIndex = 8;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnBuscarDetalles
             // 
             this.btnBuscarDetalles.BackColor = System.Drawing.Color.BurlyWood;
             this.btnBuscarDetalles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarDetalles.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnBuscarDetalles.Location = new System.Drawing.Point(12, 260);
+            this.btnBuscarDetalles.Location = new System.Drawing.Point(16, 320);
+            this.btnBuscarDetalles.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscarDetalles.Name = "btnBuscarDetalles";
-            this.btnBuscarDetalles.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarDetalles.Size = new System.Drawing.Size(100, 28);
             this.btnBuscarDetalles.TabIndex = 10;
             this.btnBuscarDetalles.Text = "Buscar";
             this.btnBuscarDetalles.UseVisualStyleBackColor = false;
+            this.btnBuscarDetalles.Click += new System.EventHandler(this.btnBuscarDetalles_Click);
             // 
             // btnBuscarProducto
             // 
             this.btnBuscarProducto.BackColor = System.Drawing.Color.BurlyWood;
             this.btnBuscarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarProducto.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnBuscarProducto.Location = new System.Drawing.Point(12, 134);
+            this.btnBuscarProducto.Location = new System.Drawing.Point(16, 165);
+            this.btnBuscarProducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscarProducto.Name = "btnBuscarProducto";
-            this.btnBuscarProducto.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarProducto.Size = new System.Drawing.Size(100, 28);
             this.btnBuscarProducto.TabIndex = 9;
             this.btnBuscarProducto.Text = "Buscar";
             this.btnBuscarProducto.UseVisualStyleBackColor = false;
+            this.btnBuscarProducto.Click += new System.EventHandler(this.btnBuscarProducto_Click);
             // 
             // VentasProductos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(624, 401);
+            this.ClientSize = new System.Drawing.Size(832, 494);
             this.Controls.Add(this.btnBuscarDetalles);
             this.Controls.Add(this.btnBuscarProducto);
             this.Controls.Add(this.btnSalir);
@@ -182,6 +196,7 @@ namespace ProyectoAPIRest
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "VentasProductos";
             this.Text = "Ventas";
             this.ResumeLayout(false);

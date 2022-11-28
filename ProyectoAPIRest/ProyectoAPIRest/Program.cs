@@ -18,7 +18,7 @@ namespace ProyectoAPIRest
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Ventas());
+            Application.Run(new Form_Login());
         }
     }
 }
