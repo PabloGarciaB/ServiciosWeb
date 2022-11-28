@@ -3,12 +3,10 @@ C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\ProyectoAP
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\ProyectoAPIRest.pdb
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\Newtonsoft.Json.Bson.dll
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\Newtonsoft.Json.dll
-C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\Newtonsoft.Json.xml
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\Newtonsoft.Json.Bson.pdb
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\Newtonsoft.Json.Bson.xml
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.csproj.AssemblyReference.cache
-C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.Form_Ventas.resources
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.Properties.Resources.resources
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.csproj.GenerateResource.cache
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.csproj.CoreCompileInputs.cache
@@ -16,3 +14,10 @@ C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAP
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.exe
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.pdb
 C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.VentasProductos.resources
+C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.ActualizarProducto.resources
+C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.AgregarProducto.resources
+C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.Almacen.resources
+C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.EliminarProducto.resources
+C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\bravo\source\repos\ProyectoAPIRest\ProyectoAPIRest\obj\Debug\ProyectoAPIRest.Form_Login.resources

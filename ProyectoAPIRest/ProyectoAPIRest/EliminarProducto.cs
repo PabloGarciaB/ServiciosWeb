@@ -16,5 +16,10 @@ namespace ProyectoAPIRest
         {
             InitializeComponent();
         }
+
+        private void btnActualizarProducto_Click(object sender, EventArgs e)
+        {
+            //Consumir API metodo POST
+        }
     }
 }
